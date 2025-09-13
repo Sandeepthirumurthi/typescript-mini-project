@@ -12,3 +12,6 @@ npm init -y
 npm install --save-dev typescript ts-node-dev @types/node
 # (no extra runtime deps needed)
 npx tsc --init
+
+# To run the project
+npm run dev
