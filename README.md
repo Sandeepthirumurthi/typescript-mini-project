@@ -6,7 +6,9 @@ A small TypeScript console app demonstrating:
 - SOLID principles (simple examples)
 
 ## Setup
-
-1. Install dev dependencies:
-   ```bash
-   npm install
+# Install node and other packages
+npm init -y
+# dev tools
+npm install --save-dev typescript ts-node-dev @types/node
+# (no extra runtime deps needed)
+npx tsc --init
